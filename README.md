@@ -9,7 +9,8 @@
 ## Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
 - Oversample / RandomOverSampler
-    - 
+    - ![](https://github.com/helen3121433/Credit_Risk_Analysis/blob/main/Resources/RandomOverSampler.PNG)
+
     - Balanced accuracy scores = 0.64
     - High_risk Precision = 0.01
     - High_risk recall (Sensitivity) = 0.64
@@ -21,6 +22,8 @@
 
     
 - Oversample / SMOTE
+    - ![](https://github.com/helen3121433/Credit_Risk_Analysis/blob/main/Resources/SMOTE.PNG)
+
     - Balanced accuracy scores = 0.63
     - High_risk Precision = 0.01
     - High_risk recall (Sensitivity) = 0.62
@@ -31,6 +34,8 @@
     - The high_risk precision score doesn't looks good and this make the f1 score result in worse
 
 - Undersample / ClusterCentroids
+    - ![](https://github.com/helen3121433/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroids.PNG)
+
     - Balanced accuracy scores = 0.51
     - High_risk Precision = 0.01
     - High_risk recall (Sensitivity) = 0.57
@@ -41,6 +46,8 @@
     - Undersampleing with ClusterCentroids reports are even worse than the oversample models above. 
 
 - Combine (Over- and Undersample) / SMOTEENN algorithm
+    - ![](https://github.com/helen3121433/Credit_Risk_Analysis/blob/main/Resources/SMOTEENN.PNG)
+
     - Balanced accuracy scores = 0.64
     - High_risk Precision = 0.01
     - High_risk recall (Sensitivity) = 0.74
@@ -51,6 +58,8 @@
     - We don't see much improvement using resampling with SMOTEENN, only some of the metrics such as recall score has an improvement over undersampling.
 
 - BalanceRandomForestClassifier
+    - ![](https://github.com/helen3121433/Credit_Risk_Analysis/blob/main/Resources/BalanceRandomForestClassifier.PNG)
+
     - Balanced accuracy scores = 0.999
     - High_risk Precision = 0.83
     - High_risk recall (Sensitivity) = 1.0
@@ -61,6 +70,8 @@
     - Using ensemble algorithms with Balance Random forest Classifier is impressive, we have a great balanced accuracy score, all the metrics on classification report looks great.
 
 - EasyEnsebleClassifier
+    - ![](https://github.com/helen3121433/Credit_Risk_Analysis/blob/main/Resources/EasyEnsembleClassifier.PNG)
+
     - Balanced accuracy scores = 1.0
     - High_risk Precision = 1.0
     - High_reish recall (Sensitivity) = 1.00
